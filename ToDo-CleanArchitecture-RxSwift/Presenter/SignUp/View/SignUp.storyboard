@@ -13,7 +13,7 @@
         <!--Sign Up View Controller-->
         <scene sceneID="64Z-iB-kph">
             <objects>
-                <viewController id="vL5-rC-4Dr" customClass="SignUpViewController" customModule="ToDo_CleanArchitecture_RxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignUp" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vL5-rC-4Dr" customClass="SignUpViewController" customModule="ToDo_CleanArchitecture_RxSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="IQa-29-2bV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

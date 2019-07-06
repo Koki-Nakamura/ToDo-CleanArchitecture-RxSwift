@@ -13,14 +13,25 @@
         <!--Add View Controller-->
         <scene sceneID="6Hk-A6-RN1">
             <objects>
-                <viewController id="vTB-Yq-pbX" customClass="AddViewController" customModule="ToDo_CleanArchitecture_RxSwift" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Add" useStoryboardIdentifierAsRestorationIdentifier="YES" id="vTB-Yq-pbX" customClass="AddViewController" customModule="ToDo_CleanArchitecture_RxSwift" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tlj-Qd-UPP">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Add" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fqh-HC-7IX">
+                                <rect key="frame" x="186" y="402" width="31" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="TL4-8S-kW6"/>
                     </view>
+                    <tabBarItem key="tabBarItem" systemItem="favorites" id="SQf-Ae-gj0"/>
                     <navigationItem key="navigationItem" id="2Ng-uM-eHG"/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bZ3-bO-0Lh" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
